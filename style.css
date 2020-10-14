@@ -1,0 +1,162 @@
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/*h1,h2,h3*/
+h2 {
+    margin: 0;
+    word-spacing: 10px;
+    padding-top: 10px;
+}
+
+h2 > span:first-child {
+    color: red;
+}
+
+h3 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+/*Header*/
+.header {
+    text-align: center;
+    background-color: green;
+    height: 35px;
+    display: flex;
+}
+
+.header_inner {
+    font-size: 16px;
+    color: white;
+    font-family: "Courier New", serif;
+    margin: auto;
+}
+
+/*Content*/
+.content {
+    background-color: blue;
+    color: white;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.content h1 {
+    margin: 0;
+    padding: 20px 0 20px 0;
+}
+
+#border {
+    margin: 0 20px 25px 0;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 10px 0 20px 0;
+}
+
+div + p {
+    font-size: 19px;
+    overflow: visible;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+/*Ссылка*/
+main > div:nth-child(3) > nav > a {
+    color: red;
+}
+
+.link {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/*Список*/
+ul {
+    margin: 0;
+    padding: 3px 0 0 35px;
+}
+
+
+ul > li:nth-child(2) {
+    color: cyan;
+    letter-spacing: 5px;
+}
+
+ul > li {
+    padding-bottom: 6px;
+    list-style: outside;
+}
+
+/*Список шрифтов*/
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.font {
+    padding-bottom: 10px;
+}
+
+.left > div:last-child {
+    padding-top: 10px;
+    text-decoration: line-through;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/*Таблица*/
+table {
+    border: 1px solid silver;
+    border-spacing: 3px;
+
+}
+
+td {
+    width: 45px;
+    height: 35px;
+    border: solid 1px silver;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+/*Картинка*/
+.image {
+    padding-top: 10px;
+    float: right;
+}
+
+
+/*Footer*/
+.footer {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    display: flex;
+    height: 35px;
+}
+
+.footer_inner {
+    margin: auto;
+}
+
+
+
+
+
